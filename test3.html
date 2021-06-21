@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <title>MY CV</title>
+  </head>
+  <body background="https://pic.52112.com/180328/180328_17/3KrbHm5grv_small.jpg">
+    <style>
+      h1 {
+        color: black; //SET WORDS' COLOR TO BE BLACK.
+        font-family: verdana; //SET WORDS' FONT.
+        font-size: 300%; //SET WORDS' SIZE.
+        border: 2px solid powderblack; //SET THE BORDER OF THE WORDS
+        margin: 50px; //SET THE MARGIN BETWEEN WORDS AND BORDER.
+      }
+      p {
+        color: blue;
+        font-weight: bold;
+        font-size: 160%;
+      }
+    </style>
+    <center>
+      <h3>
+        <font face="monospace">Hello my friend!!</font>
+      </h3>
+    </center>
+    <hr color="#009393" size="5"/>
+    <center>
+      <div>
+        <h1>謝函璉 Esther Hsieh</h1>
+      </div>
+      <hr color="#009393" size="5"/>
+      <div>
+        <p>Personal Goals</p>
+        <h4>
+          Aiming to get any chance of learning, exploring, and thinking of the world, I always believe one thing, "Life will not be easier, but you will be stronger."
+          </br></br>
+          I hope my specialty can help the world to create a friendly environment inspiring the youth to think and to love this world.
+        </h4>
+      </div>
+      <hr color="#009393" size="5"/>
+      <div>
+        <p>WHO AM I?</p>
+        <h4>
+          I'm a sophomore student majoring in NCU MIS.
+        </h4>
+      </div>
+      <hr color="#009393" size="5"/>
+      <div>
+        <p>PERSONALITY TRAITS</p>
+        <h4>
+          positive thinking, empathy, resilience
+        </h4>
+      </div>
+      <hr color="#009393" size="5"/>
+      <div>
+        <p>ACADEMIC HISTORY</p>
+        <h4>
+          National Central University</br>
+          Management of Information System | MIS
+        </h4>
+        <ul style="list-style-type: upper-roman;">
+          <li>IE LAB Student, Yunus Social Business Centre, NCU</li>
+          <li>Leader, AIESEC DBL Team</li>
+          <li>English Story Teller, Read Aloud Program of NCU Language Center</li>
+          <li>Receiver, STEM USA Scholarship</li>
+        </ul>
+        </br>
+        <h4>
+          National Hsinchu Girl's Senior High School</br>
+          Preschool Inclusive Education
+        </h4>
+        <ul>
+          <li>Delegation, Mathematics Preliminary of Science Fair</li>
+          <li>Representative, Preliminary of Hsinchu Chinese Writing Contest</li>
+          <li>Recipient, Mayor's Award</li>
+          <li>Volunteer, Hsinchu Zoo</li>
+        </ul>
+      </div>
+      <hr color="#009393" size="5"/>
+      <div>
+        <p>SPECIALIZATION</p>
+        <h3>Now Loading</h3>
+        <input id = "btn1" type="button" value="Interested?"/>
+        <label class="summary1"></label>
+      </div>
+      </br>                                              
+      <hr color="#009393" size="5"/>
+      <div>
+        <p>LANGUAGES SPOKEN</p>
+        <ul>
+          <li>English</li>
+          <li>Chinese</li>
+          <li>Deutsh</li>
+        </ul>
+      </div>
+      </br>
+      <hr color="#009393" size="5"/>
+      <div>
+        <p>GET IN TOUCH!</p>
+        <center>                          
+          <img src="./me.jpg" width="200">
+        </center>
+        </br></br>                                
+        <?php
+          $mobile = "0988944736";
+          $email = "helen0988944736@gmail.com"
+          echo "my mobile: ".$mobile."<br>"."email: ".$email;
+        ?>
+      </div>
+    </center>
+		<script>
+      window.onload = function() {
+        document.getElementById('btn1').onclick = function() {
+          var summary1 = document.querySelector('.summary1');
+          summary1.innerHTML = "Team Working, Communication, Empathic Listening, Chinese/English Writing, Coding Skills, Management Skills";
+        }
+      }
+		</script>
+	</body>
+</html>
